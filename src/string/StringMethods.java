@@ -76,7 +76,9 @@ public class StringMethods {
 		//15. replace(): Replaces each substring of this string that matches the literal 
 		//				 target sequence with the specified literal replacement sequence
 		//return type: String
+				String s3="Akshay Godase";
 				System.out.println("Replace: "+s.replace("k", "x"));  //Axshay
+				System.out.println("Akshay Replaced with Rutuja: "+s3.replace("Akshay", "Rutuja")); //Rutuja Godase
 				
 		//16. split(): Splits this string around matches of the given regular expression.
 		//Return Type: String[] (array of strings)
